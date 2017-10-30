@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grafo Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/Grafo" class="dashAnchor"></a>
+    <a title="Grafo Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        Grafo Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/Algoritmos.html">Algoritmos</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BABInfo.html">BABInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:C7FibHeap12DijkstraInfo">DijkstraInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FibonacciHeapMax.html">FibonacciHeapMax</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FibonacciHeapMin.html">FibonacciHeapMin</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Grafo.html">Grafo</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/Contenido.html">Contenido</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structs</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Arista.html">Arista</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:V7FibHeap6Objeto">Objeto</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Vertice.html">Vertice</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Grafo</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">Grafo</span></code></pre>
+
+                </div>
+              </div>
+            <p>Clase que representa la abstracción de un grafo</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC7FibHeap5Grafo8verticesGSaVS_7Vertice_"></a>
+                    <a name="//apple_ref/swift/Property/vertices" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC7FibHeap5Grafo8verticesGSaVS_7Vertice_">vertices</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Lista de vértices del grafo</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">vertices</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vC7FibHeap5Grafo7aristasGSaVS_6Arista_"></a>
+                    <a name="//apple_ref/swift/Property/aristas" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vC7FibHeap5Grafo7aristasGSaVS_6Arista_">aristas</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Lista de aristas del grafo</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">aristas</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/Arista.html">Arista</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7FibHeap5GrafocFT_S0_"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7FibHeap5GrafocFT_S0_">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructor vacío de un grafo</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7FibHeap5GrafocFT5desdeS0__S0_"></a>
+                    <a name="//apple_ref/swift/Method/init(desde:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7FibHeap5GrafocFT5desdeS0__S0_">init(desde:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Constructor que copia un grafo sobre este
+- Parameter desde: Grafo del que se va a copiar la información</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">desde</span><span class="p">:</span> <span class="kt">Grafo</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7FibHeap5Grafo12crearVerticeFSSVS_7Vertice"></a>
+                    <a name="//apple_ref/swift/Method/crearVertice(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7FibHeap5Grafo12crearVerticeFSSVS_7Vertice">crearVertice(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creación de un vértice en el grafo
+- Parameter id: String con el nombre del vértice</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">crearVertice</span><span class="p">(</span><span class="n">_</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String con el nombre del vértice</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7FibHeap5Grafo20anadirAristaDirigidaFTVS_7Vertice5hastaS1_4pesoSd_T_"></a>
+                    <a name="//apple_ref/swift/Method/anadirAristaDirigida(_:hasta:peso:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7FibHeap5Grafo20anadirAristaDirigidaFTVS_7Vertice5hastaS1_4pesoSd_T_">anadirAristaDirigida(_:hasta:peso:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creación de una arista dirigida en el grafo
+- Parameter desde: Vértice inicial
+- Parameter hasta: Vértice final
+- Parameter peso: Peso de la arista</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">anadirAristaDirigida</span><span class="p">(</span><span class="n">_</span> <span class="nv">desde</span><span class="p">:</span> <span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span><span class="p">,</span> <span class="nv">hasta</span><span class="p">:</span> <span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span><span class="p">,</span> <span class="nv">peso</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>desde</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Vértice inicial</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hasta</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Vértice final</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peso</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Peso de la arista</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7FibHeap5Grafo22anadirAristaNoDirigidaFTTVS_7VerticeS1__4pesoSd_T_"></a>
+                    <a name="//apple_ref/swift/Method/anadirAristaNoDirigida(_:peso:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7FibHeap5Grafo22anadirAristaNoDirigidaFTTVS_7VerticeS1__4pesoSd_T_">anadirAristaNoDirigida(_:peso:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creación de una arista no dirigida en el grafo
+- Parameter vertices: Tupla formada por los vértices que une la arista
+- Parameter peso: Peso de la arista</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">anadirAristaNoDirigida</span><span class="p">(</span><span class="n">_</span> <span class="nv">vertices</span><span class="p">:</span> <span class="p">(</span><span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span><span class="p">,</span> <span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span><span class="p">),</span> <span class="nv">peso</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>vertices</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Tupla formada por los vértices que une la arista</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>peso</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Peso de la arista</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7FibHeap5Grafo10pesoAristaFTVS_7Vertice7destinoS1__GSqSd_"></a>
+                    <a name="//apple_ref/swift/Method/pesoArista(_:destino:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7FibHeap5Grafo10pesoAristaFTVS_7Vertice7destinoS1__GSqSd_">pesoArista(_:destino:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Consulta del peso de una arista
+- Parameter origen: Vértice de inicio
+- Parameter destino: Vértice de destino
+- Returns: Peso de la arista</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">pesoArista</span><span class="p">(</span><span class="n">_</span> <span class="nv">origen</span><span class="p">:</span> <span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span><span class="p">,</span> <span class="nv">destino</span><span class="p">:</span> <span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Double</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>origen</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Vértice de inicio</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>destino</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Vértice de destino</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Peso de la arista</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FC7FibHeap5Grafo12aristasDesdeFVS_7VerticeGSaVS_6Arista_"></a>
+                    <a name="//apple_ref/swift/Method/aristasDesde(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FC7FibHeap5Grafo12aristasDesdeFVS_7VerticeGSaVS_6Arista_">aristasDesde(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Consulta de las aristas desde un vértice
+- Parameter origen: Vértice
+- Returns: Lista de aristas desde el vértice</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">aristasDesde</span><span class="p">(</span><span class="n">_</span> <span class="nv">origen</span><span class="p">:</span> <span class="kt"><a href="../Structs/Vertice.html">Vertice</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt"><a href="../Structs/Arista.html">Arista</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>origen</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Vértice</p>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Lista de aristas desde el vértice</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2017 <a class="link" href="" target="_blank" rel="external">Javier Sagredo</a>. All rights reserved. (Last updated: 2017-06-12)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
